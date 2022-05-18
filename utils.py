@@ -58,7 +58,8 @@ def get_score(screen,score,rename=None,rep='ave_rep1_rep2'):
     ## step 6: remove rows with pseudo index, neg control gRNAs 
     df = df.loc[ctrl_gRNA == False,:]
     
-    print (f'{score} ->\n\tmean(neg control gRNAs rho score): {mean_ctrl_gRNA}\n\tstd(neg control gRNAs rho score): {sigma}')
+    print (f'{score} ->\n\tmean(neg control gRNAs rho score): {mean_ctrl_gRNA}')
+    print (f'\tstd(neg control gRNAs rho score): {sigma}')
     
     return df
 
