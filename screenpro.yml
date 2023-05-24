@@ -1,0 +1,14 @@
+name: screenpro
+channels:
+  - anaconda
+  - conda-forge
+  - bioconda
+dependencies:
+  - biopython
+  - multiprocess
+  - pandas
+  - numpy
+  - ipykernel
+  - anndata
+  - scanpy
+  - fastx_toolkit
