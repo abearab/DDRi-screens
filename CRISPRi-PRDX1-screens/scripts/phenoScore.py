@@ -14,15 +14,16 @@ def ann_score_df(df_in, up_hit='resistance_hit', down_hit='sensitivity_hit', thr
     # print (pseudo_sd)
     
     df['label'] = '.'
-    df.loc[df['gene']=='non-targeting', 'label'] = 'non-targeting'
 
-    df.loc[(df['score']>0) & (df['label']!='non-targeting') & (df['score']/pseudo_sd * -np.log10(df['pvalue'])>=threshold), 'label'] = up_hit
+    df.loc[(df['score']>0) & (df['gene']!='non-targeting') & (df['score']/pseudo_sd * -np.log10(df['pvalue'])>=threshold), 'label'] = up_hit
 
-    df.loc[(df['score']<0) & (df['label']!='non-targeting') & (df['score']/pseudo_sd * -np.log10(df['pvalue'])<=-threshold), 'label'] = down_hit
+    df.loc[(df['score']<0) & (df['gene']!='non-targeting') & (df['score']/pseudo_sd * -np.log10(df['pvalue'])<=-threshold), 'label'] = down_hit
 
     df.loc[df['label']=='.', 'label'] = 'gene_non_hit'
 
     # reorder factors
     df['label'] = pd.Categorical(df['label'], categories=[down_hit, up_hit, 'gene_non_hit', 'non-targeting'])
+
+    df.loc[df['gene']=='non-targeting', 'label'] = 'non-targeting'
 
     return df

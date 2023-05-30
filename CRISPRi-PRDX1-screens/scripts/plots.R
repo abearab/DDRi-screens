@@ -17,9 +17,6 @@ plot_volcano <- function(df, score = 'rho',threshold = 100,
     p <- df %>% drop_na %>%
         ggplot(aes(x=score,y=-1*log10(pvalue)) ) + 
         geom_point(
-            data = df %>% filter(label=="non-targeting"), 
-            size = 1, color = 'gray80') +
-        geom_point(
             data = df %>% filter(label=='gene_non_hit'), 
             size = 1, color = 'gray90') +
         geom_point(
@@ -27,7 +24,10 @@ plot_volcano <- function(df, score = 'rho',threshold = 100,
             size = 2, color = '#fcae91') + 
         geom_point(
             data = df %>% filter(label==down_hit), 
-            size = 2, color = '#bdd7e7') 
+            size = 2, color = '#bdd7e7') +
+        geom_point(
+            data = df %>% filter(label=="non-targeting"), 
+            size = 1, color = 'gray70')
     
     p + xlab('log2FoldChange') -> p
     # if (score == 'gamma'){
