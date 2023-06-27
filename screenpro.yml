@@ -1,14 +1,24 @@
-name: screenpro
+name: screenpro-PhenoScore
 channels:
   - anaconda
+  - r
   - conda-forge
   - bioconda
 dependencies:
-  - biopython
-  - multiprocess
+  - r-optparse
+  - r-irkernel
+  - r-tidyverse
+  - rpy2
+  - r-ggrepel
+  - r-ggthemes
+  - ipykernel
   - pandas
   - numpy
-  - ipykernel
   - anndata
-  - scanpy
-  - fastx_toolkit
+  - seaborn
+  - matplotlib
+  - openssl
+  - openpyxl
+  - pip
+  - pip:
+    - pydeseq2
