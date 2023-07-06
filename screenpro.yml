@@ -1,4 +1,4 @@
-name: screenpro-PhenoScore
+name: screenpro
 channels:
   - anaconda
   - r
