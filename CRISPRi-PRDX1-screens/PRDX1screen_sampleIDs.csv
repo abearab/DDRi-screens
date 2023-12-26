@@ -1,0 +1,17 @@
+﻿index,cell line,timepoint,treatment,rep
+i01,parent,T0,-,1
+i02,parent,T0,-,2
+i03,parent,Tend,vehicle,1
+i04,parent,Tend,vehicle,2
+i05,parent,Tend,vehicle,3
+i06,parent,Tend,DNAPKi,1
+i07,parent,Tend,DNAPKi,2
+i08,parent,Tend,DNAPKi,3
+i09,PRDX1KO,T0,-,1
+i10,PRDX1KO,T0,-,2
+i11,PRDX1KO,Tend,vehicle,1
+i12,PRDX1KO,Tend,vehicle,2
+i13,PRDX1KO,Tend,vehicle,3
+i14,PRDX1KO,Tend,DNAPKi,1
+i15,PRDX1KO,Tend,DNAPKi,2
+i16,PRDX1KO,Tend,DNAPKi,3
