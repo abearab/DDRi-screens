@@ -3,3 +3,7 @@ __pycache__/
 
 **.fastq.gz
 **.arrow
+
+**/Archive/*
+**/Archived/*
+**/Analysis/*
