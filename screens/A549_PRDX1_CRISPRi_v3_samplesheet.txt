@@ -1,0 +1,17 @@
+sample_name,pop_doubling
+A549_parent__CRISPRi_v3__T0__rep1,-
+A549_parent__CRISPRi_v3__T0__rep2,-
+A549_parent__CRISPRi_v3__vehicle__rep1,8.099107
+A549_parent__CRISPRi_v3__vehicle__rep2,7.760087
+A549_parent__CRISPRi_v3__vehicle__rep3,7.799925
+A549_parent__CRISPRi_v3__DNAPKi__rep1,7.459794
+A549_parent__CRISPRi_v3__DNAPKi__rep2,7.541174
+A549_parent__CRISPRi_v3__DNAPKi__rep3,7.709747
+A549_PRDX1KO__CRISPRi_v3__T0__rep1,-
+A549_PRDX1KO__CRISPRi_v3__T0__rep2,-
+A549_PRDX1KO__CRISPRi_v3__vehicle__rep1,6.93964
+A549_PRDX1KO__CRISPRi_v3__vehicle__rep2,7.325594
+A549_PRDX1KO__CRISPRi_v3__vehicle__rep3,7.048209
+A549_PRDX1KO__CRISPRi_v3__DNAPKi__rep1,1.94945
+A549_PRDX1KO__CRISPRi_v3__DNAPKi__rep2,2.113679
+A549_PRDX1KO__CRISPRi_v3__DNAPKi__rep3,2.469331
