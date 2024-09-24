@@ -135,4 +135,20 @@ Files map:
         ├── A549_PRDX1KO__CRISPRi_v3__DNAPKi__rep3_R1.fastq.gz
         ├── A549_PRDX1KO__CRISPRi_v3__DNAPKi__rep3_R2.fastq.gz
         ├── A549_PRDX1KO__CRISPRi_v3__T0__rep1_count.arrow
+        ├── A549_PRDX1KO__CRISPRi_v3__T0__rep1_R1.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__T0__rep1_R2.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__T0__rep2_count.arrow
+        ├── A549_PRDX1KO__CRISPRi_v3__T0__rep2_R1.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__T0__rep2_R2.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep1_count.arrow
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep1_R1.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep1_R2.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep2_count.arrow
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep2_R1.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep2_R2.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep3_count.arrow
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep3_R1.fastq.gz
+        ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep3_R2.fastq.gz
+        └── checksums.txt
+
 ```
