@@ -27,11 +27,6 @@ Files map:
 │   ├── Fig-3A.pdf
 │   ├── Fig-X-PRDX1-spiderplot-1.pdf
 │   └── Fig-X-PRDX1-spiderplot-2.pdf
-├── __pycache__
-│   ├── utils.cpython-310.pyc
-│   ├── utils.cpython-311.pyc
-│   ├── utils.cpython-36.pyc
-│   └── utils.cpython-39.pyc
 ├── README.md
 └── screens
     ├── A549_CRISPRa_v2_screen_analysis.ipynb
