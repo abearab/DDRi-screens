@@ -14,19 +14,6 @@ Files map:
 ├── 2-drug-gene-knowledge-graph.ipynb
 ├── 3-evaluate-DDRi-PRDX1-v3-screens.ipynb
 ├── LICENSE
-├── plots
-│   ├── A549_CRISPRi_score_scatters.pdf
-│   ├── CRISPRi-PRDX1-DDRi-screens.pdf
-│   ├── Fig-1B.pdf
-│   ├── Fig-1C.pdf
-│   ├── Fig-1D.pdf
-│   ├── Fig-1E.pdf
-│   ├── Fig-2A.pdf
-│   ├── Fig-2B.pdf
-│   ├── Fig-2C.pdf
-│   ├── Fig-3A.pdf
-│   ├── Fig-X-PRDX1-spiderplot-1.pdf
-│   └── Fig-X-PRDX1-spiderplot-2.pdf
 ├── README.md
 └── screens
     ├── A549_CRISPRa_v2_screen_analysis.ipynb
