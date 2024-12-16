@@ -1,6 +1,14 @@
 ## DDRi collab AZ-IGI (UCSF)
 
 ### Interactive Plots
+
+Locally displayed interactive plots using [streamlit](https://streamlit.io/):
+
+```bash
+streamlit run app/main.py
+```
+
+List of interactive volcano plots:
 <div style="display: flex; flex-wrap: wrap;">
   <div style="margin: 10px;">
     <a href="screens/A549_CRISPRi_v2_screens_ATMi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">ATMi Volcano Plot</a>
@@ -35,21 +43,29 @@
 
 ### Data Overview
 
+List of FASTQ files for all the screens: [checksums list](screens/fastq/checksums.txt)
+
+___
+
 Sample name format:
 
 ```
 <study_model>__<platform>__<perturbation>__<replicate>
 ```
 
-Files map:
+e.g. 
+
+```
+A549__CRISPRa_v2__DMSO__rep1.fastq.gz
+A549_PRDX1KO__CRISPRi_v3__DNAPKi__rep1_R1.fastq.gz
+```
+
+
+
+<!-- Files map:
 
 ```
 .
-├── 1-evaluate-DDRi-v2-screens.ipynb
-├── 2-drug-gene-knowledge-graph.ipynb
-├── 3-evaluate-DDRi-PRDX1-v3-screens.ipynb
-├── LICENSE
-├── README.md
 └── screens
     ├── A549_CRISPRa_v2_screen_analysis.ipynb
     ├── A549_CRISPRa_v2_screens.h5ad.gz
@@ -126,6 +142,5 @@ Files map:
         ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep2_R2.fastq.gz
         ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep3_R1.fastq.gz
         ├── A549_PRDX1KO__CRISPRi_v3__vehicle__rep3_R2.fastq.gz
-        └── checksums.txt
 
-```
+``` -->
