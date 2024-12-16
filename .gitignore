@@ -1,9 +1,11 @@
 **/.ipynb_checkpoints/
 __pycache__/
 
+**.pkl
 **.fastq.gz
 **.arrow
 
 **/Archive/*
 **/Archived/*
 **/Analysis/*
+.DS_Store
