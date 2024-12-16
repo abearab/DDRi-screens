@@ -13,7 +13,7 @@ st.markdown('This app is a collection of volcano plots for various DDRi screens.
 
 screens_id = 'A549_CRISPRi_v2_screens'
 
-st.markdown(f'## {screens_id.replace("_v2_", " (V2) ").replace("_", " ").title()}')
+st.markdown(f'## {screens_id.replace("_v2_", " (V2) ").replace("_", " ")}')
 
 # List all volcano plots for each screen
 for file_path in glob(f'app/_html/{screens_id}/*.html'):
