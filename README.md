@@ -1,5 +1,40 @@
 ## DDRi collab AZ-IGI (UCSF)
 
+### Interactive Plots
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_ATMi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">ATMi Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_ATRi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">ATRi Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_DNAPKi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">DNAPKi Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_PARPi+ATMi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">PARPi+ATMi Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_PARPi+ATRi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">PARPi+ATRi Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_PARPi+DNAPKi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">PARPi+DNAPKi Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_PARPi+WEE1i_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">PARPi+WEE1i Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_PARPi_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">PARPi Volcano Plot</a>
+  </div>
+  <div style="margin: 10px;">
+    <a href="screens/A549_CRISPRi_v2_screens_WEE1i_volcano.html" style="padding: 10px; border: 1px solid #ccc; display: block; text-align: center;">WEE1i Volcano Plot</a>
+  </div>
+</div>
+
+
+
+### Data Overview
+
 Sample name format:
 
 ```
