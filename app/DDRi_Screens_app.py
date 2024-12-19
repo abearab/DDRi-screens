@@ -6,9 +6,13 @@ st.set_page_config(
 
 st.title('DDRi Screens App')
 st.markdown(
-    'This app is a collection of volcano plots for various DDRi screens.'
+    """
+    This is a data exploration app for the DDRi Screens dataset.
+    """
 )
 
-
-
-st.sidebar.tabs = ['Home', 'Screens']
+# Show the link to the pages
+st.page_link('pages/1_🧬_CRISPRi_mono_therapy_💊.py', 
+             label='CRISPRi mono therapy screens 💊')
+st.page_link('pages/2_🧬_CRISPRi_combination_therapy_💊💊.py', 
+             label='CRISPRi combination therapy screens 💊💊')
