@@ -1,5 +1,15 @@
 ## DDRi collab AZ-IGI (UCSF)
 
+### Notebooks
+
+Final analysis notebooks:
+- [evaluate-DDRi-v2-screens](notebooks/evaluate-DDRi-v2-screens.ipynb)
+- [drug-gene-knowledge-graph](notebooks/drug-gene-knowledge-graph.ipynb)
+- [evaluate-DDRi-PRDX1-v3-screens](notebooks/evaluate-DDRi-PRDX1-v3-screens.ipynb)
+- [build-interactive-plots](notebooks/build-interactive-plots.ipynb)
+
+<!-- - []() -->
+
 ### Interactive Plots
 
 Locally displayed interactive plots using [streamlit](https://streamlit.io/):
