@@ -7,8 +7,7 @@ Final analysis notebooks:
 - [drug-gene-knowledge-graph](notebooks/drug-gene-knowledge-graph.ipynb)
 - [evaluate-DDRi-PRDX1-v3-screens](notebooks/evaluate-DDRi-PRDX1-v3-screens.ipynb)
 - [build-interactive-plots](notebooks/build-interactive-plots.ipynb)
-
-<!-- - []() -->
+- [PRDX1-6-CanDI-analysis](notebooks/PRDX1-6-CanDI-analysis.ipynb)
 
 ### Interactive Plots
 
