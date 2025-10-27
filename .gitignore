@@ -5,6 +5,8 @@ __pycache__/
 **.fastq.gz
 **.arrow
 
+gold_standard_screens/
+
 **/Archive/*
 **/Archived/*
 **/Analysis/*
